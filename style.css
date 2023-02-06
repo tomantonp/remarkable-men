@@ -1,0 +1,30 @@
+body {
+    display: flex;
+}
+
+.header {
+    display: flex;
+    flex: 1;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.left-header {
+    list-style: none;
+    text-decoration:black;
+    gap: 8px;
+    background-color:lavenderblush;
+}
+
+.right-header {
+
+    list-style: none;
+    text-decoration:black;
+    flex: 1;
+    background-color:lavenderblush;
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+
+}

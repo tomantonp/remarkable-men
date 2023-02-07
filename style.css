@@ -90,6 +90,7 @@ text-align: center;
     justify-content: center;
     flex: 1 0 100%;
     gap: 20px;
+    
 }
 
 .group {
@@ -97,4 +98,32 @@ text-align: center;
     justify-content: center;
     gap: 18px;
     align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.third {
+
+    background-color: rgb(195, 206, 206);
+    min-height: 200px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px
+}
+
+.quote-from {
+    font-weight: 900;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: right;
+    margin-bottom: 100px;
+}
+
+.quote {
+    color: rgb(0, 0, 0);
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: justify;
+    margin-top: 100px;
 }

@@ -1,6 +1,5 @@
 body {
-    display: flex;
-    flex-wrap: wrap;
+    
 }
 
 .header {
@@ -39,36 +38,32 @@ a {
     width: 100%;
     height: 0;
 }
+
 .first {
     display: flex;
-    padding: 100px;
-    width: 100%;
-    justify-content: center;
-    gap: 12px;
-    background-color: black;
     flex: 1;
+    justify-content: center;
     align-items: center;
-    
-
-
+    background-color: black;
+    padding: 100px;
 }
 
 .first-text {
     flex-direction: column;
     color: white;
-    justify-content: space-evenly;
 }
 
 img {
-    width: 100px;
-    
+    width: 120px;
+}
+
+img.andy {
+    justify-self: flex-start;
 
 }
 
-
-
 .h1 {
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .description {
@@ -83,9 +78,9 @@ img {
 
 .second-title {
 text-align: center;  
-height: 80px;
   padding: 32px;
   align-self: center;
+  font-size: 30px;
 }
 
 
@@ -94,5 +89,12 @@ height: 80px;
     align-items: center;
     justify-content: center;
     flex: 1 0 100%;
+    gap: 20px;
 }
 
+.group {
+    max-width: 120px;
+    justify-content: center;
+    gap: 18px;
+    align-items: flex-start;
+}

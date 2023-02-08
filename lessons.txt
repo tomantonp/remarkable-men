@@ -1,0 +1,42 @@
+I learned
+
+.break {
+    width: 100%;
+    height: 0;
+}
+
+to get a new section.
+
+I learned
+
+    min-height: 350px;
+
+Was useful as well in layout.
+
+Other than that was happy using Flex to 
+move things around.
+
+The main difficulty was selecting images
+and getting images to line up perfectly how I'd thought.
+
+I used UL list with two tags to separate left and right header
+and
+    justify-content: flex-end;
+with Right links
+
+I used
+
+    list-style: none;
+
+to format the list
+
+and
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+to get the links looking nice.
+
+I have of this moment forgotten how to publish the site on GitHub, but I need a break!

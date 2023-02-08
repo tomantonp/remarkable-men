@@ -45,21 +45,20 @@ a {
     justify-content: center;
     align-items: center;
     background-color: black;
-    padding: 100px;
+    min-height: 350px;
 }
 
 .first-text {
     flex-direction: column;
     color: white;
+
+    text-align: justify;
+    padding: 16px;
 }
 
 img {
     width: 120px;
-}
-
-img.andy {
-    justify-self: flex-start;
-
+    max-height: 140px;
 }
 
 .h1 {
@@ -68,6 +67,10 @@ img.andy {
 
 .description {
     font-size: 24px;
+}
+
+.group-text {
+    text-align: center;
 }
 
 .second {
@@ -126,4 +129,39 @@ text-align: center;
     margin-right: 150px;
     text-align: justify;
     margin-top: 100px;
+}
+
+.fourth {
+    background-color: white;
+    min-height: 400px;
+}
+
+.listen-in {
+    background-color: rgb(109, 109, 221);
+    margin: 100px;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 60px;
+    gap: 40px;
+    align-items: center;
+}
+
+.l-i-text {
+    flex-shrink: 1;
+    text-align: justify;
+    max-width: 65%;
+}
+
+.l-i-button {
+    flex-shrink: 0;
+}
+
+.footer {
+    display: flex;
+    flex: 1;
+    min-height: 120px;
+    max-height: 120px;
+    justify-content: center;
+    align-items: center;
 }
